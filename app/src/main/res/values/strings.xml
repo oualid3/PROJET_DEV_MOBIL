@@ -3,4 +3,7 @@
     <string name="txt_home_zone_1">Zone 1</string>
     <string name="txt_home_zone_2">Zone 2</string>
     <string name="txt_home_etudiant">Etudiant 1</string>
+    <string name="nom_eleve">Mezroui Oualid</string>
+    <string name="email_eleve">oualid.mezroui@epsi.fr</string>
+    <string name="link_epsi">https://www.epsi.fr/</string>
 </resources>

@@ -24,6 +24,5 @@ class MainActivity : BaseActivity() {
             val newIntent= Intent(application,GroupeInfoActivity::class.java)
             startActivity(newIntent)
         })
-
     }
 }
