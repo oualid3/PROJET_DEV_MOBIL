@@ -21,7 +21,7 @@ class MainActivity : BaseActivity() {
         })
 
         buttonZone2.setOnClickListener(View.OnClickListener {
-            val newIntent= Intent(application,GroupeInfoActivity::class.java)
+            val newIntent= Intent(application,CategorieActivity::class.java)
             startActivity(newIntent)
         })
     }

@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_app">
         <activity
+            android:name=".BoissonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CategorieActivity"
+            android:exported="false" />
+        <activity
             android:name=".EleveActivity"
             android:exported="false" />
         <activity

@@ -2,8 +2,22 @@
     <string name="app_name">Project_app</string>
     <string name="txt_home_zone_1">Zone 1</string>
     <string name="txt_home_zone_2">Zone 2</string>
+    <!--Zone1-->
     <string name="txt_home_etudiant">Etudiant 1</string>
+    <string name="info_eleve">Info Etudiant</string>
     <string name="nom_eleve">Mezroui Oualid</string>
     <string name="email_eleve">oualid.mezroui@epsi.fr</string>
+    <string name="groupe">Groupe</string>
     <string name="link_epsi">https://www.epsi.fr/</string>
+    <!--Zone2-->
+    <string name="txt_boissons">Boisson</string>
+    <string name="txt_fromages">Fromages</string>
+    <string name="txt_surgeles">Surgelés</string>
+    <string name="txt_sauces">Sauces</string>
+    <!--Produit-->
+    <string name="txt_produit">Nom du produit</string>
+    <string name="txt_description">Description :</string>
+
+
+
 </resources>
