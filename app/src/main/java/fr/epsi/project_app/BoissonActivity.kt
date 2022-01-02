@@ -4,8 +4,6 @@ import android.os.Bundle
 import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import fr.epsi.epsig2.fr.epsi.project_app.Product
-import fr.epsi.epsig2.fr.epsi.project_app.ProductAdapter
 import okhttp3.*
 import org.json.JSONObject
 import java.io.IOException
@@ -36,18 +34,18 @@ class BoissonActivity : BaseActivity() {
             }
 
             override fun onResponse(call: Call, response: Response) {
-                val data = response.body()?.string()
+                val data = response.body?.string()
                 if(data !=null){
                     val jsOb= JSONObject(data)
                     val jsArray =jsOb.getJSONArray("items")
                     for(i in 0 until jsArray.length()){
-                        val jsStudent = jsArray.getJSONObject(i)
-                        val name =jsStudent.optString("name","")
-                        val description =jsStudent.optString("description","")
-                        val picture_url =jsStudent.optString("picture_url","")
+                        val jsProduct = jsArray.getJSONObject(i)
+                        val name =jsProduct.optString("name","")
+                        val description =jsProduct.optString("description","")
+                        val picture_url =jsProduct.optString("picture_url","")
                         val product = Product(name, description = description, picture_url = picture_url)
                         products.add(product)
-                        Log.d("Student",product.name)
+                        Log.d("Product",product.name)
                     }
                     runOnUiThread(Runnable {
                         productAdapter.notifyDataSetChanged()

@@ -28,29 +28,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:textColor="@color/black"
         android:textSize="20sp"
-        android:text="@string/info_eleve" />
+        android:text="@string/txt_info_eleve" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20sp"
-        android:text="@string/nom_eleve" />
+        android:text="@string/txt_nom_eleve" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20sp"
-        android:text="@string/email_eleve" />
+        android:text="@string/txt_email_eleve" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20sp"
-        android:text="@string/groupe" />
+        android:text="@string/txt_groupe" />
 
     <TextView
         android:layout_width="match_parent"
@@ -59,7 +60,7 @@
         android:gravity="center"
         android:layout_marginTop="50dp"
         android:textSize="20sp"
-        android:text="@string/link_epsi" />
+        android:text="@string/txt_link_epsi" />
     <View
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

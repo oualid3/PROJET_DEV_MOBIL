@@ -4,12 +4,14 @@
     <string name="txt_home_zone_2">Zone 2</string>
     <!--Zone1-->
     <string name="txt_home_etudiant">Etudiant 1</string>
-    <string name="info_eleve">Info Etudiant</string>
-    <string name="nom_eleve">Mezroui Oualid</string>
-    <string name="email_eleve">oualid.mezroui@epsi.fr</string>
-    <string name="groupe">Groupe</string>
-    <string name="link_epsi">https://www.epsi.fr/</string>
+    <string name="txt_info">Infos</string>
+    <string name="txt_info_eleve">Info Etudiant</string>
+    <string name="txt_nom_eleve">Mezroui Oualid</string>
+    <string name="txt_email_eleve">oualid.mezroui@epsi.fr</string>
+    <string name="txt_groupe">Groupe</string>
+    <string name="txt_link_epsi">https://www.epsi.fr/</string>
     <!--Zone2-->
+    <string name="txt_Rayons">Rayons</string>
     <string name="txt_boissons">Boisson</string>
     <string name="txt_fromages">Fromages</string>
     <string name="txt_surgeles">Surgelés</string>

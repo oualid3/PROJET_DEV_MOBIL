@@ -11,6 +11,7 @@ class CategorieActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_categorie)
         showBtnBack()
+        setHeaderTitle("Rayons")
 
         val buttonBoissons: Button = findViewById(R.id.buttonBoissons)
         val buttonFromages: Button = findViewById(R.id.buttonFromages)

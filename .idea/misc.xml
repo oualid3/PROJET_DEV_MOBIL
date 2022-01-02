@@ -3,14 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mezro/OneDrive/Documents/PROJET_DEV_MOBIL/PROJET_DEV_MOBIL/app/src/main/res/drawable/border_costum.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/mezro/OneDrive/Documents/PROJET_DEV_MOBIL/PROJET_DEV_MOBIL/app/src/main/res/layout/activity_boisson.xml" value="0.33" />
         <entry key="..\:/Users/mezro/OneDrive/Documents/PROJET_DEV_MOBIL/PROJET_DEV_MOBIL/app/src/main/res/layout/activity_categorie.xml" value="0.3625" />
         <entry key="..\:/Users/mezro/OneDrive/Documents/PROJET_DEV_MOBIL/PROJET_DEV_MOBIL/app/src/main/res/layout/activity_eleve.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/mezro/OneDrive/Documents/PROJET_DEV_MOBIL/PROJET_DEV_MOBIL/app/src/main/res/layout/activity_fromage.xml" value="0.33" />
         <entry key="..\:/Users/mezro/OneDrive/Documents/PROJET_DEV_MOBIL/PROJET_DEV_MOBIL/app/src/main/res/layout/activity_groupe_info.xml" value="0.3175925925925926" />
         <entry key="..\:/Users/mezro/OneDrive/Documents/PROJET_DEV_MOBIL/PROJET_DEV_MOBIL/app/src/main/res/layout/activity_main.xml" value="0.3625" />
         <entry key="..\:/Users/mezro/OneDrive/Documents/PROJET_DEV_MOBIL/PROJET_DEV_MOBIL/app/src/main/res/layout/activity_splash.xml" value="0.22037037037037038" />
         <entry key="..\:/Users/mezro/OneDrive/Documents/PROJET_DEV_MOBIL/PROJET_DEV_MOBIL/app/src/main/res/layout/activity_student.xml" value="0.3175925925925926" />
+        <entry key="..\:/Users/mezro/OneDrive/Documents/PROJET_DEV_MOBIL/PROJET_DEV_MOBIL/app/src/main/res/layout/activity_students_online.xml" value="0.3625" />
         <entry key="..\:/Users/mezro/OneDrive/Documents/PROJET_DEV_MOBIL/PROJET_DEV_MOBIL/app/src/main/res/layout/cell_produit.xml" value="0.3625" />
+        <entry key="..\:/Users/mezro/OneDrive/Documents/PROJET_DEV_MOBIL/PROJET_DEV_MOBIL/app/src/main/res/layout/cell_student.xml" value="0.24537037037037038" />
       </map>
     </option>
   </component>

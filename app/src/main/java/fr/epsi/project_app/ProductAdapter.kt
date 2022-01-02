@@ -1,4 +1,4 @@
-package fr.epsi.epsig2.fr.epsi.project_app
+package fr.epsi.project_app
 
 import android.view.LayoutInflater
 import android.view.View
@@ -17,7 +17,7 @@ class ProductAdapter (private val product: ArrayList<Product>): RecyclerView.Ada
         val textViewName = view.findViewById<TextView>(R.id.tewtViewName)
         val textViewDescription = view.findViewById<TextView>(R.id.textViewDescription)
         val imageBoisson = view.findViewById<ImageView>(R.id.imageBoisson)
-        val boisson = view.findViewById<LinearLayout>(R.id.boisson)
+        val boissonLayout = view.findViewById<LinearLayout>(R.id.boissonLayout)
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ViewHolder {
@@ -31,8 +31,8 @@ class ProductAdapter (private val product: ArrayList<Product>): RecyclerView.Ada
         holder.textViewDescription.text=product.description
 
         Picasso.get().load(product.picture_url).into(holder.imageBoisson)
-        holder.boisson.setOnClickListener(View.OnClickListener {
-            (holder.boisson.context.applicationContext as AppEpsi).showToast(product.name)
+        holder.boissonLayout.setOnClickListener(View.OnClickListener {
+            (holder.boissonLayout.context.applicationContext as AppEpsi).showToast(product.name)
         })
     }
 
